@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="loginHeading">
+        <h1>
+            LOG IN
+        </h1>
+    </div>
+    <div class="formDiv">
+        <form class="Cform">
+            <div class="message"></div>
+            
+            <div class="diiv">
+                <label for="username">
+                    Username<i class="fas fa-user"></i>
+                    <input for="username" id="userName">
+                </label>
+                <div class="formError" id="userNameError">Please enter a valid name</div>
+                
+            </div>
+            <div class="diiv">
+                <label for="password">
+                    Password<i class="fas fa-key"></i>
+                    <input for="password" id="password">
+                </label>
+                <div class="formError" id="emailError">Please enter a valid email</div>
+            </div>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+
+    <script src="/components.js" type="module"></script>
+  
+    <script src="/script.js" type="module"></script>
+</body>
+</html>

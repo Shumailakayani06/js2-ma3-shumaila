@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* LOGIN SECTION */
+
+.loginHeading {
+  color: rgb(50, 90, 163);
+  margin: 2em;
+  font-size: 25px;
+}
+
+.formDiv {
+  margin: 2em;
+  width: 60%;
+  box-shadow: 4px 4px 8px 8px darkgray;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+form {
+  background: rgb(199, 235, 246);
+  padding: 3em;
+  border-radius: 20px;
+}
+
+input {
+  font-size: 18px;
+  padding: 0.5em;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+button {
+  background: rgb(50, 90, 163);
+  border-radius: 6px;
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+  font-size: 18px;
+  width: 210px;
+  border: none;
+  margin-top: 1em;
+  letter-spacing: 1px;
+}
+
+.formError {
+  color: red;
+  margin-top: 1em;
+  letter-spacing: 1px;
+  display: none;
+}
+
+.diiv {
+  margin-top: 2em;
+}
+
+.diiv i {
+  margin-left: 1em;
+}
+
+/* Warning Message */
+
+.message {
+  color: red;
+  text-align: center;
+}
+
+/* Success message */
+
+.body {
+  text-align: center;
+}
+
+.success {
+  background-color: rgb(50, 90, 163);
+  display: inline-block;
+  padding: 5em;
+  margin-top: 3em;
+  width: 70%;
+  color: white;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 20px;
+}
